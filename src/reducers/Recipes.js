@@ -1,4 +1,4 @@
-import { FETCH_RECIPIES_REQUEST , FETCH_RECIPIES_SUCCESS, FETCH_RECIPIES_FAILURE } from '../actions/actionTypes';
+import { FETCH_RECIPIES_REQUEST, FETCH_RECIPIES_SUCCESS, FETCH_RECIPIES_FAILURE } from '../actions/actionTypes';
 
 const initialState = {
   loading: false,
