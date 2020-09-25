@@ -1,6 +1,7 @@
 /* eslint-disable react/button-has-type */
 /* eslint-disable react/prop-types */
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Recipe({ recipe }) {
   return (
@@ -28,7 +29,15 @@ function Recipe({ recipe }) {
           </li>
         </ul>
         <p>{ recipe.body }</p>
-        <button className="btn btn-primary mb-1">View Details</button>
+        <button className="btn btn-primary mb-1">
+          <Link to={{
+            pathname: `/recipe/${recipe}`,
+            state: { recipe },
+          }}
+          >
+            View Recipe
+          </Link>
+        </button>
       </div>
     </div>
   );
