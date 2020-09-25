@@ -23,7 +23,7 @@ function RecipeList({
     <h1>{ recipiesData.error }</h1>
   ) : (
     <div>
-      <RecipeFilter filterRecipe={filterRecipe} /> {
+      <RecipeFilter filterRecipe={filterRecipe} recipiesData={recipiesData} /> {
       recipiesData.recipiesData
         .filter(recipe => (filter === 'All' ? true : (recipe.userId).toString() === filter))
         .map((recipe, key) => (

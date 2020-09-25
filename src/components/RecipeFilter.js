@@ -2,7 +2,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { connect } from 'react-redux';
+import Recipe from './Recipe';
 
 function RecipeFilter({ recipiesData, filterRecipe }) {
   const handlefilter = ({ target }) => {
@@ -26,8 +26,4 @@ function RecipeFilter({ recipiesData, filterRecipe }) {
   );
 }
 
-const mapStateToProps = state => ({
-  recipiesData: state.recipes,
-});
-
-export default connect(mapStateToProps)(RecipeFilter);
+export default RecipeFilter;
