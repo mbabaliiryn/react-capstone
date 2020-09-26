@@ -1,7 +1,8 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 import axios from 'axios';
-import { FETCH_RECIPIES_REQUEST, FETCH_RECIPIES_SUCCESS, FETCH_RECIPIES_FAILURE } from './actionTypes';
+import { FETCH_RECIPIES_REQUEST, FETCH_RECIPIES_SUCCESS, FETCH_RECIPIES_FAILURE, FILTER_RECIPE, URL,
+} from './actionTypes';
 
 export const fetchRecipiesRequest = () => ({
   type: FETCH_RECIPIES_REQUEST,
@@ -24,7 +25,7 @@ export const filterRecipe = userId => ({
 
 export const fetchRecipes = () => dispatch => {
   dispatch(fetchRecipesRequest);
-  axios.get('https://jsonplaceholder.typicode.com/posts').then(response => {
+  axios.get(URL).then(response => {
     const recipies = response.data;
     dispatch(fetchRecipiesSuccess(recipies));
   }).catch(error => {
