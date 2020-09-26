@@ -1,7 +1,8 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 import axios from 'axios';
-import { FETCH_RECIPIES_REQUEST, FETCH_RECIPIES_SUCCESS, FETCH_RECIPIES_FAILURE, FILTER_RECIPE, URL,
+import {
+  FETCH_RECIPIES_REQUEST, FETCH_RECIPIES_SUCCESS, FETCH_RECIPIES_FAILURE, FILTER_RECIPE, URL,
 } from './actionTypes';
 
 export const fetchRecipiesRequest = () => ({
