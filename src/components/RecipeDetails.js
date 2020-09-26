@@ -13,6 +13,7 @@ const RecipeDetails = props => {
       <div className="card p-2 col-6 border mx-auto mt-3 border">
         <div className="image-section-details mx-auto mb-2 border p-2">
           <img src={recipeData.image} alt="boohoo" className="image-detail" />
+
         </div>
         <div className="card-body card-section">
           <h5 className="card-title text-underline">
@@ -30,7 +31,7 @@ const RecipeDetails = props => {
           <p className="card-text text-underline">
             {' '}
             Web-site:
-            <a href={recipeData.site} target="blank" className="ml-1">
+            <a href={recipeData.site} target="blank" className="ml-1" rel="noopener noreferrer">
               {' '}
               {recipeData.site}
             </a>
