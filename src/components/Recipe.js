@@ -5,20 +5,28 @@ import { Link } from 'react-router-dom';
 
 function Recipe({ recipe }) {
   return (
-    <div className="col-md-3 bg-warning">
+    <div className="col-md-3">
       <div className="card col-md-12 mx-2 mb-2 p-4">
         <div className="image-section mx-auto mb-2">
           <img src={recipe.image} alt="boohoo" className="image-det" />
         </div>
-        <h4>{ recipe.title }</h4>
-        <p>
-          Symbol:
-          { recipe.symbol }
+        <div>
+          <h5 className="text-secondary font-weight-bold">
+            { recipe.title.length < 30 ? `${recipe.title}` : `${recipe.title.substring(0, 34)}...` }
+          </h5>
+        </div>
+        <p className="symbol-paragraph">
+          company:
+          {' '}
+          <b>
+            <i>{ recipe.symbol}</i>
+          </b>
         </p>
-        <label htmlFor="site">
+        <label htmlFor="site" className="display-6 visit-us">
           Visit Us:
-          <a href={recipe.site} target="blank">
-            { recipe.site }
+          <a href={recipe.site} target="blank" className="ml-1">
+            { recipe.site.length < 15 ? `${recipe.site}`
+              : `${recipe.site.substring(0, 20)}...` }
           </a>
         </label>
         <button className="btn btn-primary mb-1">
@@ -29,7 +37,7 @@ function Recipe({ recipe }) {
               state: { recipe },
             }}
           >
-            View Recipe
+            View Details
           </Link>
         </button>
       </div>
