@@ -1,20 +1,23 @@
+/* eslint-disable react/forbid-prop-types */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable array-callback-return */
 /* eslint-disable react/prop-types */
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import PropTypes from 'prop-types';
+import { filterRecipe } from '../actions/index';
 
-function RecipeFilter({ recipiesData, filterRecipe }) {
+function RecipeFilter({ recipiesData }) {
   const userIdArry = [];
+  const dispatch = useDispatch();
 
-  recipiesData.recipies.map(value => {
-    userIdArry.push(value.symbol);
-  });
+  recipiesData.recipies.map(value => userIdArry.push(value.symbol));
 
   const filteredArry = Array.from(new Set(userIdArry));
   const handlefilter = ({ target }) => {
-    filterRecipe(target.value);
+    dispatch(filterRecipe(target.value));
   };
 
   return (
@@ -36,5 +39,9 @@ function RecipeFilter({ recipiesData, filterRecipe }) {
     </div>
   );
 }
+
+RecipeFilter.propTypes = {
+  recipiesData: PropTypes.object.isRequired,
+};
 
 export default RecipeFilter;
