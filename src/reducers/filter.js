@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 import { FILTER_RECIPE } from '../actions/actionTypes';
 
 const filter = (state = 'All', action) => {
@@ -9,4 +8,5 @@ const filter = (state = 'All', action) => {
       return state;
   }
 };
+
 export default filter;

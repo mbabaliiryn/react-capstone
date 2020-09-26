@@ -32,4 +32,5 @@ const recipiesReducers = (state = initialState, action) => {
       return state;
   }
 };
+
 export default recipiesReducers;
