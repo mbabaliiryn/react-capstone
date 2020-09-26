@@ -1,10 +1,17 @@
+/* eslint-disable array-callback-return */
 /* eslint-disable react/prop-types */
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import Recipe from './Recipe';
 
 function RecipeFilter({ recipiesData, filterRecipe }) {
+  const userIdArry = [];
+
+  recipiesData.recipies.map(value => {
+    userIdArry.push(value.symbol);
+  });
+
+  const filteredArry = Array.from(new Set(userIdArry));
   const handlefilter = ({ target }) => {
     filterRecipe(target.value);
   };
@@ -16,8 +23,10 @@ function RecipeFilter({ recipiesData, filterRecipe }) {
           All
         </option>
         {
-                recipiesData.recipes.map(recipe => (
-                  <option key={recipe.id} value={recipe.userId}>{ recipe.userId}</option>
+                filteredArry.map(recipe => (
+                  <option key={recipe} value={recipe}>
+                    { recipe }
+                  </option>
                 ))
                 }
 
