@@ -1,7 +1,9 @@
+/* eslint-disable react/forbid-prop-types */
 /* eslint-disable react/button-has-type */
 /* eslint-disable react/prop-types */
 import React from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 function Recipe({ recipe }) {
   return (
@@ -24,7 +26,7 @@ function Recipe({ recipe }) {
         </p>
         <label htmlFor="site" className="display-6 visit-us">
           Visit Us:
-          <a href={recipe.site} target="blank" className="ml-1">
+          <a href={recipe.site} target="blank" className="ml-1" rel="noopener noreferrer">
             { recipe.site.length < 15 ? `${recipe.site}`
               : `${recipe.site.substring(0, 20)}...` }
           </a>
@@ -44,4 +46,8 @@ function Recipe({ recipe }) {
     </div>
   );
 }
+
+Recipe.propTypes = {
+  recipe: PropTypes.object.isRequired,
+};
 export default Recipe;
