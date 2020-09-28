@@ -6,7 +6,7 @@ import RecipeDetails from './RecipeDetails';
 const Router = () => (
   <BrowserRouter>
     <Switch>
-      <Route path="/" component={App} exact />
+      <Route path="/react-capstone" component={App} exact />
       <Route path="/recipe/:id" component={RecipeDetails} />
     </Switch>
   </BrowserRouter>

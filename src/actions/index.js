@@ -30,6 +30,7 @@ export const fetchRecipies = () => dispatch => {
   dispatch(fetchRecipiesRequest);
   axios.get(URL).then(response => {
     const recipies = response.data;
+    console.log(recipies);
     dispatch(fetchRecipiesSuccess(recipies));
   }).catch(error => {
     const errorMsg = error.message;
