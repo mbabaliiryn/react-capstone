@@ -15,6 +15,7 @@ function RecipeList() {
 
   const dispatch = useDispatch();
   const recipiesData = useSelector(state => state.recipies);
+  // console.log(recipiesData, "helee");
   const filter = useSelector(state => state.filter);
 
   return recipiesData.loading ? (
