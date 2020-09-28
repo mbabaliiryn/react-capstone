@@ -19,7 +19,7 @@ function RecipeFilter({ recipiesData }) {
   };
 
   return (
-    <div data-testid="recipeFilter" className="bg-secondary my-2 p-2 d-flex justify-content-center align-items-center">
+    <div data-testid="recipeFilter" className="bg-primary my-2 p-2 d-flex justify-content-center align-items-center">
       <label htmlFor="filter" className=" text-white mr-1 mt-1 font-weight-bold">SELECT COMPANY:</label>
       <select className="form-control col-md-3 p-1" onChange={handleFilter}>
         <option value="All" key="All">
