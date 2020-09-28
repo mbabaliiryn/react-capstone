@@ -38,7 +38,7 @@ const RecipeDetails = props => {
           </p>
         </div>
         <button className="col-md-2 btn btn-primary">
-          <Link to={{ pathname: '/' }} className="text-white">
+          <Link to={{ pathname: '/react-capstone' }} className="text-white">
             Home
           </Link>
         </button>
