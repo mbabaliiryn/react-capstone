@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-capstone/static/css/main.c9af426b.chunk.css",
+    "main.js": "/react-capstone/static/js/main.5d56ce17.chunk.js",
+    "main.js.map": "/react-capstone/static/js/main.5d56ce17.chunk.js.map",
+    "runtime-main.js": "/react-capstone/static/js/runtime-main.bb1c5314.js",
+    "runtime-main.js.map": "/react-capstone/static/js/runtime-main.bb1c5314.js.map",
+    "static/css/2.8aa5a7f8.chunk.css": "/react-capstone/static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.1e1c54ec.chunk.js": "/react-capstone/static/js/2.1e1c54ec.chunk.js",
+    "static/js/2.1e1c54ec.chunk.js.map": "/react-capstone/static/js/2.1e1c54ec.chunk.js.map",
+    "index.html": "/react-capstone/index.html",
+    "precache-manifest.9cf76aa431d41cd9279fd2f9639e4a50.js": "/react-capstone/precache-manifest.9cf76aa431d41cd9279fd2f9639e4a50.js",
+    "service-worker.js": "/react-capstone/service-worker.js",
+    "static/css/2.8aa5a7f8.chunk.css.map": "/react-capstone/static/css/2.8aa5a7f8.chunk.css.map",
+    "static/css/main.c9af426b.chunk.css.map": "/react-capstone/static/css/main.c9af426b.chunk.css.map",
+    "static/js/2.1e1c54ec.chunk.js.LICENSE.txt": "/react-capstone/static/js/2.1e1c54ec.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb1c5314.js",
+    "static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.1e1c54ec.chunk.js",
+    "static/css/main.c9af426b.chunk.css",
+    "static/js/main.5d56ce17.chunk.js"
+  ]
+}
