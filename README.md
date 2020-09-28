@@ -22,6 +22,10 @@ Live Link
 
 ![Screenshot from 2020-09-28 10-46-24](https://user-images.githubusercontent.com/44978186/94404783-31e92b80-0178-11eb-9531-8d46377c16a2.png)
 
+## Live demo
+
+[Live Link](https://mbabaliiryn.github.io/react-capstone/)
+
 Project Setup
 Fork the Project to your remote repository
 Clone the Project to your local machine
