@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "867b16f236ec7090aa46391549a2ed8e",
+    "revision": "5c28eb5ee0709114adce5a1ae4ae5e83",
     "url": "/react-capstone/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-capstone/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "0fb7de8d90db20424108",
+    "revision": "a70daebea13e5bae94cd",
     "url": "/react-capstone/static/css/main.c9af426b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-capstone/static/js/2.1e1c54ec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0fb7de8d90db20424108",
-    "url": "/react-capstone/static/js/main.ebd335b3.chunk.js"
+    "revision": "a70daebea13e5bae94cd",
+    "url": "/react-capstone/static/js/main.c29487f0.chunk.js"
   },
   {
     "revision": "19be803387e5090b207e",
