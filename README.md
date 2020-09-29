@@ -26,54 +26,43 @@ Live Link
 
 [Live Link](https://mbabaliiryn.github.io/react-capstone/)
 
-Project Setup
-Fork the Project to your remote repository
-Clone the Project to your local machine
-Run npm install to install project dependencies
-Available Scripts
+## Project Setup
+- Fork the Project to your remote repository
+- Clone the Project to your local machine
+- Run `npm install` to install project dependencies
+
+## Available Scripts
 In the project directory, you can run:
+`npm start`
+- Runs the app in the development mode.
+- Open http://localhost:3000 to view it in the browser.
 
-npm start
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in the browser.
+## How to test the code
+- Run `npm run test`
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+## Authors
 
-npm test
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
+👤 Mbabali Iryn
 
-npm build
-Builds the app for production to the build folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Github: [@mbabaliiryn](https://github.com/mbabaliiryn)
+- Twitter: [@irynmbabali](https://twitter.com/irynmbabali)
+- Linkedln: [mbabaliiryn](https://www.linkedin.com/in/mbabaliiryn)
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
 
-See the section about deployment for more information.
+## 🤝 Contributing
 
-npm eject
-Note: this is a one-way operation. Once you eject, you can’t go back!
-
-If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-Author
-bust_in_silhouette Odong Sunday
-
-Portfolio
-Github: @OdongAlican
-Twitter: @odongsandie
-Linkedin: Sunday Alican odong
-Email
-handshake Contributing
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the issues page.
+## Show your support
 
-Show your support
-Give a star if you like this project!
+Give a ⭐️ if you like this project!
+
+## Acknowledgements
+
+- [Microverse](https://www.microverse.org/)
+- [The Odin Project](https://www.theodinproject.com/)
+- [Freecodecamp](http://freecodecamp.org/)
+
+## 📝 License
+
+This project is licensed under MIT license - see [LICENSE](/LICENSE) for more details.
